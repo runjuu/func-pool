@@ -6,14 +6,14 @@ class FuncPool {
     this.removeFromAutoRun = this.removeFromAutoRun.bind(this);
   }
 
-  static checkType(func: Function | Array<Function>) {
+  static checkType(func: Function | Array<Function>): Function | Array<Function> {
     if (func === undefined || typeof func === 'function' || Array.isArray(func)) return func;
     throw new TypeError('FuncPool accept a function as a parameter');
   }
 
   private updatePool: Array<Function> = [];
 
-  clear() {
+  clear(): void {
     this.updatePool = [];
   }
 
@@ -43,7 +43,7 @@ class FuncPool {
   autoRun(func?: Function | Array<Function>): Function[] {
     if (FuncPool.checkType(func)) {
       if (Array.isArray(func)) {
-        func.forEach(funcInArray => this.autoRun(funcInArray));
+        func.forEach((funcInArray): void => { this.autoRun(funcInArray); });
       } else {
         if (this.updatePool.includes(func)) this.removeFromAutoRun(func);
         this.updatePool.push(func);

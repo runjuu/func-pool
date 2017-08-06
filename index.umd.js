@@ -77,7 +77,7 @@ var FuncPool = function () {
             if (FuncPool.checkType(func)) {
                 if (Array.isArray(func)) {
                     func.forEach(function (funcInArray) {
-                        return _this.autoRun(funcInArray);
+                        _this.autoRun(funcInArray);
                     });
                 } else {
                     if (this.updatePool.includes(func)) this.removeFromAutoRun(func);
