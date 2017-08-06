@@ -57,3 +57,8 @@ typings/
 # dotenv environment variables file
 .env
 
+/.idea
+src/**/*.js
+npm-debug.log
+yarn-error.log
+/.coveralls.yml
