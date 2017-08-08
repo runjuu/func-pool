@@ -14,10 +14,11 @@ describe('FuncPool', () => {
   const c = () => { num = 10; return 'c'; };
   const d = () => { throw new Error('error'); };
 
-  it('FuncPool 实例拥有三个属性，update、autoRun、removeFromAutoRun', () => {
+  it('FuncPool 实例拥有三个属性，update、autoRun、removeFromAutoRun、clear', () => {
     expect(funcPool).to.have.property('update').to.be.an('function');
     expect(funcPool).to.have.property('autoRun').to.be.an('function');
     expect(funcPool).to.have.property('removeFromAutoRun').to.be.an('function');
+    expect(funcPool).to.have.property('clear').to.be.an('function');
   });
   describe('autoRun', () => {
     it('调用 autoRun 时传入一个函数，会返回一个函数数组', () => {
