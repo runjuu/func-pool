@@ -11,7 +11,7 @@
 
 ## Install
 ```console
-npm i FuncPool
+npm i func-pool
 ```
 
 ## Quick Examples
