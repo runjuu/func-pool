@@ -2,8 +2,8 @@
 
 [![Build Status](https://travis-ci.org/Runjuu/FuncPool.svg?branch=master)](https://travis-ci.org/Runjuu/FuncPool)
 [![Coverage Status](https://coveralls.io/repos/github/Runjuu/FuncPool/badge.svg?branch=master)](https://coveralls.io/github/Runjuu/FuncPool?branch=master)
-[![npm version](https://badge.fury.io/js/funcPool.svg)](https://badge.fury.io/js/funcPool)
-[![Total downloads](https://img.shields.io/npm/dt/funcPool.svg)](https://www.npmjs.com/package/funcPool)
+[![npm version](https://badge.fury.io/js/func-pool.svg)](https://badge.fury.io/js/func-pool)
+[![Total downloads](https://img.shields.io/npm/dt/func-pool.svg)](https://www.npmjs.com/package/func-pool)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md#pull-requests)
 [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
 
@@ -16,7 +16,7 @@ npm i FuncPool
 
 ## Quick Examples
 ```js
-import FuncPool from 'funcPool';
+import FuncPool from 'func-pool';
 const funcPool = new FuncPool();
 
 function hello() { console.log('hello'); }
