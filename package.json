@@ -18,15 +18,15 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Runjuu/FuncPool.git"
+    "url": "git+https://github.com/Runjuu/func-pool.git"
   },
   "keywords": [],
   "author": "Runjuu",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Runjuu/FuncPool/issues"
+    "url": "https://github.com/Runjuu/func-pool/issues"
   },
-  "homepage": "https://github.com/Runjuu/FuncPool#readme",
+  "homepage": "https://github.com/Runjuu/func-pool#readme",
   "devDependencies": {
     "@types/chai": "^4.0.2",
     "@types/chai-as-promised": "0.0.31",
