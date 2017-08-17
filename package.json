@@ -1,6 +1,6 @@
 {
   "name": "func-pool",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "execute functions sequentially and modify (add, delete, sort) the order of execution when needed",
   "main": "index.js",
   "scripts": {
