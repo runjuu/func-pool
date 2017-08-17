@@ -1,7 +1,7 @@
-# FuncPool
+# func-pool
 
-[![Build Status](https://travis-ci.org/Runjuu/FuncPool.svg?branch=master)](https://travis-ci.org/Runjuu/FuncPool)
-[![Coverage Status](https://coveralls.io/repos/github/Runjuu/FuncPool/badge.svg?branch=master)](https://coveralls.io/github/Runjuu/FuncPool?branch=master)
+[![Build Status](https://travis-ci.org/Runjuu/func-pool.svg?branch=master)](https://travis-ci.org/Runjuu/func-pool)
+[![Coverage Status](https://coveralls.io/repos/github/Runjuu/func-pool/badge.svg?branch=master)](https://coveralls.io/github/Runjuu/func-pool?branch=master)
 [![npm version](https://badge.fury.io/js/func-pool.svg)](https://www.npmjs.com/package/func-pool)
 [![Total downloads](https://img.shields.io/npm/dt/func-pool.svg)](https://www.npmjs.com/package/func-pool)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md#pull-requests)
