@@ -1,5 +1,7 @@
 # func-pool
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Runjuu/func-pool.svg)](https://greenkeeper.io/)
+
 [![Build Status](https://travis-ci.org/Runjuu/func-pool.svg?branch=master)](https://travis-ci.org/Runjuu/func-pool)
 [![Coverage Status](https://coveralls.io/repos/github/Runjuu/func-pool/badge.svg?branch=master)](https://coveralls.io/github/Runjuu/func-pool?branch=master)
 [![npm version](https://badge.fury.io/js/func-pool.svg)](https://www.npmjs.com/package/func-pool)
