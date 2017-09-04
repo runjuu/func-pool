@@ -5,6 +5,7 @@
 [![npm version](https://badge.fury.io/js/func-pool.svg)](https://www.npmjs.com/package/func-pool)
 [![Total downloads](https://img.shields.io/npm/dt/func-pool.svg)](https://www.npmjs.com/package/func-pool)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md#pull-requests)
+[![Greenkeeper badge](https://badges.greenkeeper.io/Runjuu/func-pool.svg)](https://greenkeeper.io/)
 [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
 
 > Execute functions sequentially and modify (add, delete, sort) the order of execution when needed
