@@ -12,11 +12,13 @@ export default [{
       babel()
     ],
   }, {
-    entry: 'src/index.js',
-    format: 'umd',
+    input: 'src/index.js',
+    output: {
+      file: 'index.umd.js',
+      format: 'umd',
+    },
     plugins: [
       resolve(),
       babel()
     ],
-    dest: 'index.umd.js'
   }];
